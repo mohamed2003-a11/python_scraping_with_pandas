@@ -8,11 +8,9 @@ Welcome to my Python Data Analysis & Web Scraping Portfolio! This repository bri
 
 * Core Concepts: Web Scraping, API Automation, Data Cleaning, Data Aggregation, Exploratory Data Analysis (EDA)
 
-Repository Overview
+Repositories Overview
 
 --
-
-📂 Projects Overview
 
 1. Amazon Price Tracker 
 Directory: 01-amazon-price-tracker/ 
