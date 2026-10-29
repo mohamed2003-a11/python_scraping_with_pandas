@@ -8,55 +8,65 @@ Welcome to my Python Data Analysis & Web Scraping Portfolio! This repository bri
 
 * Core Concepts: Web Scraping, API Automation, Data Cleaning, Data Aggregation, Exploratory Data Analysis (EDA)
 
-## 📁 Repository Overview
+Repository Overview
 
-  |Project|                               |Main Tools |                                   |Key Highlights | 
+--
 
-[Amazon Price Tracker]                | BeautifulSoup, Requests, `smtplib`            | HTML parsing, price monitoring, automated email alerts | 
-[CoinMarketCap API Pipeline]          | Requests, Pandas, Seaborn                     |API data ingestion, data normalization, time-series visualization | 
-[Hockey Data Scraper]                 | BeautifulSoup, Pandas                         | Multi-page pagination scraping, tabular data extraction | 
-[BMI Calculator]                      | Python Standard Library                       | User input validation, logic flow, conditional categorization | 
-[Customer Call List Cleaning]         | Pandas                                        | Regex string manipulation, phone number formatting, null handling | 
-[World Population EDA]                |Pandas, Seaborn, Matplotlib                    | Descriptive statistics, grouping/aggregation, distribution analysis | 
+📂 Projects Overview
 
-## 🚀 Projects
+1. Amazon Price Tracker 
+Directory: 01-amazon-price-tracker/ 
+Description: Tracks product prices on Amazon and automatically sends an email notification whenever the price drops below a designated target threshold.
+Main Tools: BeautifulSoup, Requests, smtplib 
+Key Highlights: HTML parsing, price monitoring, automated email alerts 
 
-1. Amazon Price Tracker
+--
 
-Directory: `./01-amazon-price-tracker/`
+2. CoinMarketCap API Pipeline 
+Directory: 02-crypto-api-pipeline/ 
+Description: Automates real-time cryptocurrency data ingestion using the CoinMarketCap API, cleans the JSON response into DataFrames, and plots price trends.
+Main Tools: Requests, Pandas, Seaborn 
+Key Highlights: API data ingestion, data normalization, time-series visualization 
 
-Description: Scrapes product pages to track price changes over time and sends automated email alerts via SMTP when prices drop below a specified threshold.
+--
 
-2. CoinMarketCap API Pipeline
+3. Hockey Data Scraper 
+Directory: 03-hockey-data-scraping/ 
+Description: Navigates through paginated web pages to scrape hockey team statistics across multiple pages and converts the raw data into structured tables.
+Main Tools: BeautifulSoup, Pandas 
+Key Highlights: Multi-page pagination scraping, tabular data extraction 
 
-Directory: `./02-crypto-api-pipeline/`
+--
 
-Description: Connects to the CoinMarketCap API to periodically ingest real-time cryptocurrency price data, appends it to a structured dataset, and visualizes market trends.
+4. BMI Calculator 
+Directory: 04-bmi-calculator/ 
+Description: An interactive tool that takes user physical metrics, validates input values, and calculates the precise Body Mass Index category using custom logic.
+Main Tools: Python Standard Library 
+Key Highlights: User input validation, logic flow, conditional categorization 
 
-3. Hockey Data Scraper
+--
 
-Directory: `./03-hockey-data-scraper/`
+5. Customer Call List Cleaning 
+Directory: 05-customer-call-list-cleaning/ 
+Description: Cleans messy client contact records by removing duplicate entries, standardizing phone number formats, and handling missing values with Pandas.
+Main Tools: Pandas 🛠️
+Key Highlights: Regex string manipulation, phone number formatting, null handling 
 
-Description: Demonstrates web scraping techniques by iterating across paginated HTML tables from the *Scrape This Site* sandbox to gather and structure hockey team statistics.
+--
 
-4. BMI Calculator
+6. World Population EDA 
+Directory: 06-world-population-eda/ 
+Description: Analyzes global demographic historical trends using descriptive statistics, group aggregation, and informative distribution charts.
+Main Tools: Pandas, Seaborn, Matplotlib 
+Key Highlights: Descriptive statistics, grouping/aggregation, distribution analysis 
 
-Directory:`./04-bmi-calculator/`
+--
 
-Description: A lightweight interactive Python script that processes user input (weight and height) to calculate Body Mass Index and outputs custom status classifications.
+🛠️ Requirements & Setup
 
-5. Customer Call List Cleaning
+To run any of the scripts locally, install all necessary dependencies using:
 
-Directory: `./05-customer-call-list-cleaning/`
-
-Description: Addresses real-world data quality issues by cleaning messy call lists—standardizing phone numbers, splitting addresses, removing duplicates, and handling missing entries.
-
-6. World Population EDA
-
-Directory: `./06-world-population-eda/`
-
-Description: Performs Exploratory Data Analysis on historical world population data, featuring correlation analysis, group aggregations, and data visualization.
-
+pip install -r requirements.txt
 💻 How to Run
 
 1. Clone the repository:
